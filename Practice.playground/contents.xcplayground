@@ -19,6 +19,5 @@
         <page name='Combine'/>
         <page name='Equatable'/>
         <page name='Hashable'/>
-        <page name='GetPosts'/>
     </pages>
 </playground>

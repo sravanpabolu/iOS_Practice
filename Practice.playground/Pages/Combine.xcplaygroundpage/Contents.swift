@@ -25,8 +25,8 @@ struct MarvelHero: Codable {
 typealias MarvelHeros = [MarvelHero]
 
 class NetworkManager {
-    func getData() -> Future<T, Error> {
-        return Future<T, Error> {
+    func getData<T>() -> Future<T, Error> {
+        return Future<T, Error> { _ in
             guard let url = Constants.url else { return CustomError.invalidURL }
             
             URLSession
@@ -48,7 +48,7 @@ class NetworkManager {
     }
 }
 
-NetworkManager().getData
+//NetworkManager().getData
 
 
 //: [Next](@next)
