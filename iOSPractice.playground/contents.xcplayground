@@ -19,5 +19,7 @@
         <page name='Combine'/>
         <page name='Equatable'/>
         <page name='Hashable'/>
+        <page name='Comparable'/>
+        <page name='Concurrency'/>
     </pages>
 </playground>
